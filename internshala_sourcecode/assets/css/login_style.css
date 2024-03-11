@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700&display=swap');
+
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #f2f2f2;
+}
+
+.navbar {
+  background-color: black;
+}
+
+.navbar-brand {
+  color: #fff;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: #fff;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+  background-color: #555;
+}
+
+.login-form {
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 5px;
+  border-color: black;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin-top: 150px;
+  width: 565px;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 250px;
+  border-radius: 5%;
+}
+
+.form-control {
+  border-radius: 5%;
+  border-color: #555;
+  border: 1.25px solid #ccc;
+  padding: 10px;
+  font-size: 16px;
+  height: 40px;
+  transition: border-color 0.3s ease;
+  width: 800px;
+  margin-left: 101px;
+  margin-top: 10px;
+}
+
+.form-control:focus {
+  border-color: #333;
+  border-style: solid;
+  box-shadow: 0 0 5px rgba(29, 28, 28, 0.1);
+}
+
+.input-group-addon {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  padding: 10px;
+  width: 400px;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+.input-group-addon:hover {
+  background-color: #555;
+}
+
+.btn-info {
+  background-color: #337ab7;
+  border-color: #2e6da4;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  width: 400px;
+  
+}
+
+.btn-info:hover {
+  background-color: #2e6da4;
+}
+
+.btn-block {
+  display: block;
+  width: 350px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 55px;
+  margin-top: 30px;
+  font-size: large;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.form-control::placeholder {
+  color: #ccc;
+}
+
+.input-group-addon:hover .glyphicon {
+  color: #fff;
+}
+
+.input-group-addon .glyphicon {
+  color: #ccc;
+  transition: color 0.3s ease;
+}
+
+.btn-info:hover {
+  background-color: #2e6da4;
+  color: #fff;
+}
+
+.btn-info:focus {
+  background-color: #2e6da4;
+  color: #fff;
+  box-shadow: none;
+}
+
+.btn-info:active {
+  background-color: #2e6da4;
+  color: #fff;
+  box-shadow: none;
+  transform: translateY(2px);
+}
+.navbar {
+    background-color: #333;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+  }
